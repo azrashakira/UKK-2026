@@ -1,0 +1,296 @@
+/* ===== GLOBAL ===== */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== LOGIN PAGE ===== */
+.login-page{
+    background:#E9F1FA;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-container{
+    background:#FFFFFF;
+    padding:40px;
+    width:350px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.login-container h2{
+    margin-bottom:20px;
+    color:#00ABE4;
+}
+
+.login-container input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+.login-container input:focus{
+    border-color:#00ABE4;
+    outline:none;
+}
+
+.login-container button{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    background:#00ABE4;
+    color:#FFFFFF;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.login-container button:hover{
+    background:#008ec2;
+}
+
+/* ===== ADMIN PAGE ===== */
+.admin-page{
+    background:#E9F1FA;
+    min-height:100vh;
+}
+
+.container{
+    width:85%;
+    max-width:1000px;
+    margin:auto;
+    padding-top:60px;
+}
+
+.card{
+    background:#FFFFFF;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card h2,
+.card h3{
+    margin-bottom:15px;
+    color:#00ABE4;
+}
+
+/* ===== SISWA PAGE ===== */
+.siswa-page{
+    background:#E9F1FA;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.form-container{
+    background:#FFFFFF;
+    width:400px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.form-container h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#00ABE4;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top:10px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,select,textarea{
+    padding:8px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+.back{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    text-decoration:none;
+    color:#00ABE4;
+}
+
+.form-container form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea{
+    width:100%;
+    padding:10px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+/* ===== SEARCH FORM ===== */
+
+form input, form select{ 
+    padding:10px; 
+    border-radius:8px; 
+    border:1px solid #ccc; 
+    font-size:14px; 
+}
+
+form button{ 
+    padding:10px; 
+    border:none; 
+    border-radius:8px; 
+    background:#00ABE4; 
+    color:#FFFFFF; 
+    font-size:16px; 
+    cursor:pointer; 
+} 
+
+form button:hover{ 
+    background:#008ec2; 
+} 
+
+.search-form{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+}
+
+.search-form input,
+.search-form select{
+    width:140px;
+    padding:8px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    font-size:13px;
+}
+
+.search-form button,
+.search-form .btn{
+    padding:8px 12px;
+    font-size:13px;
+}
+
+/* ===== TABLE STYLE ===== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:#FFFFFF;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+table th{
+    background:#00ABE4;
+    color:#FFFFFF;
+    padding:12px;
+    font-weight:bold;
+}
+
+table td{
+    padding:12px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+table tr:hover{
+    background:#E9F1FA;
+}
+
+/* ===== STATUS BADGE ===== */
+
+.status{
+    font-weight:bold;
+    text-align:center;
+    color:black;
+}
+
+/* ===== BUTTON STYLE ===== */
+
+.btn{
+    background:#00ABE4;
+    color:#FFFFFF;
+    padding:8px 15px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#008ec2;
+    
+}
+
+.logout{
+    background:#ff4b5c;
+    
+}
+
+.logout:hover{
+    background:#d43f4d;
+    
+}
+
+td .btn{
+    display:block;
+    margin:4px 0;
+    text-align:center;
+}
+
+/* ===== LAPORAN BULANAN ===== */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th {
+    background: #667eea;
+    color: white;
+    padding: 10px;
+}
+
+.table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover biar interaktif */
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
